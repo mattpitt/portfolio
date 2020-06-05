@@ -1,0 +1,175 @@
+@media (max-width:800px){
+  body{max-width:800px;}
+}
+
+body {
+  font-family: 'Gill Sans', sans-serif;
+  background-color: #292e32;
+}
+.white-bg{
+  background-color: white;
+}
+h3{
+  font-weight: 600;
+  color: #abacab;
+}
+h4{
+  font-weight: 600;
+  font-size:1.2rem;
+}
+.h4Hover{
+  color:gray;
+}
+.h4Hover:hover {
+  color:white;
+}
+
+p{
+  color:gray;
+  font-size:1.1rem;
+}
+.clients {
+  font-weight: 700;
+
+}
+
+a {
+color:white;
+}
+a:hover {
+color:gray;
+text-decoration:none;
+}
+
+.navbar {
+padding:3px;
+}
+
+.nav-item {
+  margin:0 16px;
+}
+.navbar-brand {
+  font-size:1.1rem;
+  font-weight: 600;
+  margin-left: 10px
+}
+
+/* FIRST IMAGE */
+
+.first-img{
+  background-color: #0095df;
+  text-align:center;
+}
+.top-img{
+  width: 30%;
+  max-width: 400px;
+  margin-top: 4rem;
+  min-width: 200px;
+}
+
+.intro-section {
+  padding: 1rem 0 8rem;
+  background-color: #0095df;
+}
+.section-title {
+  font-size: 60px;
+  font-weight: 600;
+}
+.section-title span{
+  color: #fff;
+}
+
+.image {
+  width:inherit;
+  height: 30rem;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* CAROUSEL  */
+.carousel-item{
+  height: auto;
+}
+
+.carousel-inner{
+  background-color: #343a40;
+}
+.d-block{
+  max-width: 1400px;
+  margin: auto;
+}
+.d-block-long{
+  max-width: 600px;
+  margin: auto;
+  display:block;
+}
+.d-block-mid{
+  max-width: 800px;
+  margin: auto;
+  display:block;
+}
+
+/* COLUMNS */
+
+.col-md-6 {
+  margin: 10px 0;
+}
+
+.row {
+  margin: auto;
+  max-width: 1500px;
+}
+
+/* PAGES */
+
+.description-section {
+  padding: 6rem 0 12rem;
+  background-color: #343a40;
+}
+
+.bio-section {
+  padding: 6rem 0 2rem;
+  background-color: #343a40;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  padding: 3rem 0;
+  background-color: #292e32;
+}
+
+/* ABOUT */
+.skills-text{
+  text-align:center;
+  color: gray;
+  margin:1rem 0;
+}
+.stars{
+  font-size: 1.4rem;
+  text-align:center;
+  color: #fff;
+}
+
+.bio-wrapper{
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.bio-wrapper1{
+  padding: 8rem 0;
+  text-align: center;
+  background-color: #191e22;
+}
+
+.bio-description{
+  max-width: 700px;
+  margin: auto;
+  line-height: 2;
+}
+
+.work-description{
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.5;
+}
